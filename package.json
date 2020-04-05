@@ -1,0 +1,28 @@
+{
+  "name": "masive-data-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutaito/Masive-Data-Validator.git"
+  },
+  "author": "Carlos G. Morejon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutaito/Masive-Data-Validator/issues"
+  },
+  "homepage": "https://github.com/mutaito/Masive-Data-Validator#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "moment-timezone": "^0.5.28",
+    "path": "^0.12.7",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  }
+}
