@@ -33,5 +33,5 @@ app.use('/public', express.static('public'));
 
 const PORT = process.env.PORT || process.env.port || 3001;
 const server = app.listen(PORT, () => {
-  logger.info(`Listening on the port [${PORT}]...`);
+  logger.info(`Listening on the port -->[${PORT}]...`);
 });
